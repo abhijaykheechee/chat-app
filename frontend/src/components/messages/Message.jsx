@@ -1,5 +1,6 @@
 import useConversation from "../../zustand/useConversation";
 import { useAuthContext } from "../../context/AuthContext";
+import { extractTime } from "../../utils/extractTime";
 
 const Message = ({ message }) => {
   const { authUser } = useAuthContext();
@@ -21,11 +22,11 @@ const Message = ({ message }) => {
           <img src={profilePic} alt="Tailwind chat bubble user avatar" />
         </div>
       </div>
-      <div className={`chat-bubble text-white ${bubbleBackground}`}>
+      <div className={`chat-bubble text-white ${bubbleBackground} pb-2`}>
         {message.message}
       </div>
       <div className="chat-footer opacity-50 text-cs flex gap-1 items-center">
-        12:44
+        {extractTime(message.createdAt)}
       </div>
     </div>
   );
