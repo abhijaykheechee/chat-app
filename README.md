@@ -33,6 +33,12 @@
         <img width="48" height="48" style="border-radius:12px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevo5cHvsu7IxSKAGWv6R8gUS8c3SNFv9lTA&s"/>
     </a>
     </p>
+- Global state management with Zustand
+    <p>
+    <a href="https://zustand-demo.pmnd.rs/">
+        <img width="48" height="48"  src="https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg"/>
+    </a>
+    </p>
 
 ## **Features**
 
