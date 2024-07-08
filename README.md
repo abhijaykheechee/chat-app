@@ -1,6 +1,6 @@
 # **Real-time Chat App**
 
-![alt text](image.png)
+![Chat App](/frontend/src/assets/img/image.png)
 
 ## **Tech Stack**
 
@@ -53,7 +53,7 @@
 
 ### Search Users
 
-![alt text](frontend\src\assets\img\image-8.png)
+![Search Users](/frontend/src/assets/img/image-8.png)
 
 ## **Deployment**
 
